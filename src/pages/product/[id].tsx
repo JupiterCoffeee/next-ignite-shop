@@ -54,6 +54,7 @@ export default function Product({ product }: ProductProps) {
             <Head>
                 <title>{product.name} | Ignite Shop</title>
             </Head>
+            
             <ProductContainer>
                 <ImageContainer>
                     <Image src={product.imageUrl} width={520} height={480} alt=''/>
